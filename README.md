@@ -1,0 +1,4 @@
+# UICollectionViewDemo
+尝试UICollectionView的不同玩法
+1. UICollectionView代理玩法
+2. 自定义UICollectionViewLayout
