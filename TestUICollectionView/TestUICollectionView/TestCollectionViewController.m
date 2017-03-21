@@ -7,7 +7,7 @@
 //
 
 #import "TestCollectionViewController.h"
-#import "CustumLayoutCollectionViewController.h"
+#import "WaterfallCollectionViewController.h"
 
 @interface TestCollectionViewController ()<UICollectionViewDelegateFlowLayout>
 
@@ -38,7 +38,7 @@ static NSString * const reuseFooterIdentifier = @"reuseFooterIdentifier";
     // Do any additional setup after loading the view.
     self.collectionView.backgroundColor = [UIColor whiteColor];
     
-    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"自定义layout" style:UIBarButtonItemStylePlain target:self action:@selector(didClickNavi:)];
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"瀑布流layout" style:UIBarButtonItemStylePlain target:self action:@selector(didClickNavi:)];
     
     self.navigationItem.rightBarButtonItems = @[item];
 }
@@ -51,7 +51,7 @@ static NSString * const reuseFooterIdentifier = @"reuseFooterIdentifier";
 - (void)didClickNavi:(id)sender
 {
     //自定义layout
-    CustumLayoutCollectionViewController *vc = [[CustumLayoutCollectionViewController alloc] initWithCollectionViewLayout:[UICollectionViewLayout new]];
+    WaterfallCollectionViewController *vc = [[WaterfallCollectionViewController alloc] initWithCollectionViewLayout:[UICollectionViewLayout new]];
     
     [self.navigationController pushViewController:vc animated:YES];
 }

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CustumLayoutCollectionViewController : UICollectionViewController
+@interface WaterfallCollectionViewController : UICollectionViewController
 
 @end

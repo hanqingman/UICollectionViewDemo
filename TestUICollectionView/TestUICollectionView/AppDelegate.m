@@ -24,6 +24,8 @@
     
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
     
+    layout.sectionHeadersPinToVisibleBounds = YES;
+    
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[TestCollectionViewController alloc] initWithCollectionViewLayout:layout]];
     
     return YES;

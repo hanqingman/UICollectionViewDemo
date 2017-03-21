@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		202B047C1E7FAB310057B07F /* WaterfallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 202B047B1E7FAB310057B07F /* WaterfallCell.m */; };
+		206667461E81159A0068BD2A /* WaterfallReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 206667451E81159A0068BD2A /* WaterfallReusableView.m */; };
 		208B22FF1E72B26B00672D21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 208B22FE1E72B26B00672D21 /* main.m */; };
 		208B23021E72B26B00672D21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 208B23011E72B26B00672D21 /* AppDelegate.m */; };
 		208B230A1E72B26B00672D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208B23091E72B26B00672D21 /* Assets.xcassets */; };
 		208B230D1E72B26B00672D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208B230B1E72B26B00672D21 /* LaunchScreen.storyboard */; };
+		20980C821E7A9D780069E998 /* WaterfallCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 20980C7F1E7A9D780069E998 /* WaterfallCollectionViewLayout.m */; };
+		20980C831E7A9D780069E998 /* WaterfallCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20980C811E7A9D780069E998 /* WaterfallCollectionViewController.m */; };
 		20D657241E766654009FDC2A /* TestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D657231E766654009FDC2A /* TestCollectionViewController.m */; };
-		20D6572A1E769E96009FDC2A /* CustumLayoutCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D657291E769E96009FDC2A /* CustumLayoutCollectionViewController.m */; };
-		20D6572D1E76A775009FDC2A /* CustomCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D6572C1E76A775009FDC2A /* CustomCollectionViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		202B047A1E7FAB310057B07F /* WaterfallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallCell.h; sourceTree = "<group>"; };
+		202B047B1E7FAB310057B07F /* WaterfallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallCell.m; sourceTree = "<group>"; };
+		206667441E81159A0068BD2A /* WaterfallReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallReusableView.h; sourceTree = "<group>"; };
+		206667451E81159A0068BD2A /* WaterfallReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallReusableView.m; sourceTree = "<group>"; };
 		208B22FA1E72B26B00672D21 /* TestUICollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestUICollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		208B22FE1E72B26B00672D21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		208B23001E72B26B00672D21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -24,12 +30,12 @@
 		208B23091E72B26B00672D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		208B230C1E72B26B00672D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		208B230E1E72B26B00672D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20980C7E1E7A9D780069E998 /* WaterfallCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallCollectionViewLayout.h; sourceTree = "<group>"; };
+		20980C7F1E7A9D780069E998 /* WaterfallCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallCollectionViewLayout.m; sourceTree = "<group>"; };
+		20980C801E7A9D780069E998 /* WaterfallCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallCollectionViewController.h; sourceTree = "<group>"; };
+		20980C811E7A9D780069E998 /* WaterfallCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallCollectionViewController.m; sourceTree = "<group>"; };
 		20D657221E766654009FDC2A /* TestCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewController.h; sourceTree = "<group>"; };
 		20D657231E766654009FDC2A /* TestCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewController.m; sourceTree = "<group>"; };
-		20D657281E769E96009FDC2A /* CustumLayoutCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustumLayoutCollectionViewController.h; sourceTree = "<group>"; };
-		20D657291E769E96009FDC2A /* CustumLayoutCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustumLayoutCollectionViewController.m; sourceTree = "<group>"; };
-		20D6572B1E76A775009FDC2A /* CustomCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewLayout.h; sourceTree = "<group>"; };
-		20D6572C1E76A775009FDC2A /* CustomCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +70,9 @@
 			children = (
 				208B23001E72B26B00672D21 /* AppDelegate.h */,
 				208B23011E72B26B00672D21 /* AppDelegate.m */,
+				20980C7D1E7A9D780069E998 /* WaterFlow */,
 				20D657221E766654009FDC2A /* TestCollectionViewController.h */,
 				20D657231E766654009FDC2A /* TestCollectionViewController.m */,
-				20D657281E769E96009FDC2A /* CustumLayoutCollectionViewController.h */,
-				20D657291E769E96009FDC2A /* CustumLayoutCollectionViewController.m */,
-				20D6572B1E76A775009FDC2A /* CustomCollectionViewLayout.h */,
-				20D6572C1E76A775009FDC2A /* CustomCollectionViewLayout.m */,
 				208B23091E72B26B00672D21 /* Assets.xcassets */,
 				208B230B1E72B26B00672D21 /* LaunchScreen.storyboard */,
 				208B230E1E72B26B00672D21 /* Info.plist */,
@@ -84,6 +87,21 @@
 				208B22FE1E72B26B00672D21 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20980C7D1E7A9D780069E998 /* WaterFlow */ = {
+			isa = PBXGroup;
+			children = (
+				20980C7E1E7A9D780069E998 /* WaterfallCollectionViewLayout.h */,
+				20980C7F1E7A9D780069E998 /* WaterfallCollectionViewLayout.m */,
+				20980C801E7A9D780069E998 /* WaterfallCollectionViewController.h */,
+				20980C811E7A9D780069E998 /* WaterfallCollectionViewController.m */,
+				202B047A1E7FAB310057B07F /* WaterfallCell.h */,
+				202B047B1E7FAB310057B07F /* WaterfallCell.m */,
+				206667441E81159A0068BD2A /* WaterfallReusableView.h */,
+				206667451E81159A0068BD2A /* WaterfallReusableView.m */,
+			);
+			path = WaterFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,11 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				202B047C1E7FAB310057B07F /* WaterfallCell.m in Sources */,
+				206667461E81159A0068BD2A /* WaterfallReusableView.m in Sources */,
 				208B23021E72B26B00672D21 /* AppDelegate.m in Sources */,
 				20D657241E766654009FDC2A /* TestCollectionViewController.m in Sources */,
-				20D6572D1E76A775009FDC2A /* CustomCollectionViewLayout.m in Sources */,
+				20980C821E7A9D780069E998 /* WaterfallCollectionViewLayout.m in Sources */,
+				20980C831E7A9D780069E998 /* WaterfallCollectionViewController.m in Sources */,
 				208B22FF1E72B26B00672D21 /* main.m in Sources */,
-				20D6572A1E769E96009FDC2A /* CustumLayoutCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
